@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04510FA019065419003903F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04510F9F19065419003903F4 /* Foundation.framework */; };
+		04510FA219065419003903F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04510FA119065419003903F4 /* CoreGraphics.framework */; };
+		04510FA419065419003903F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04510FA319065419003903F4 /* UIKit.framework */; };
+		04510FAA19065419003903F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04510FA819065419003903F4 /* InfoPlist.strings */; };
+		04510FAC19065419003903F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04510FAB19065419003903F4 /* main.m */; };
+		04510FB019065419003903F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04510FAF19065419003903F4 /* AppDelegate.m */; };
+		04510FB219065419003903F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04510FB119065419003903F4 /* Images.xcassets */; };
+		04510FB91906541A003903F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04510FB81906541A003903F4 /* XCTest.framework */; };
+		04510FBA1906541A003903F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04510F9F19065419003903F4 /* Foundation.framework */; };
+		04510FBB1906541A003903F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04510FA319065419003903F4 /* UIKit.framework */; };
+		04510FC31906541A003903F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04510FC11906541A003903F4 /* InfoPlist.strings */; };
+		04510FC51906541A003903F4 /* bleOneToMoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04510FC41906541A003903F4 /* bleOneToMoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04510FBC1906541A003903F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04510F9419065419003903F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04510F9B19065419003903F4;
+			remoteInfo = bleOneToMore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04510F9C19065419003903F4 /* bleOneToMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleOneToMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04510F9F19065419003903F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04510FA119065419003903F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04510FA319065419003903F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04510FA719065419003903F4 /* bleOneToMore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bleOneToMore-Info.plist"; sourceTree = "<group>"; };
+		04510FA919065419003903F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04510FAB19065419003903F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04510FAD19065419003903F4 /* bleOneToMore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bleOneToMore-Prefix.pch"; sourceTree = "<group>"; };
+		04510FAE19065419003903F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04510FAF19065419003903F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04510FB119065419003903F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04510FB71906541A003903F4 /* bleOneToMoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bleOneToMoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04510FB81906541A003903F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04510FC01906541A003903F4 /* bleOneToMoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bleOneToMoreTests-Info.plist"; sourceTree = "<group>"; };
+		04510FC21906541A003903F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04510FC41906541A003903F4 /* bleOneToMoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bleOneToMoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04510F9919065419003903F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04510FA219065419003903F4 /* CoreGraphics.framework in Frameworks */,
+				04510FA419065419003903F4 /* UIKit.framework in Frameworks */,
+				04510FA019065419003903F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04510FB41906541A003903F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04510FB91906541A003903F4 /* XCTest.framework in Frameworks */,
+				04510FBB1906541A003903F4 /* UIKit.framework in Frameworks */,
+				04510FBA1906541A003903F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04510F9319065419003903F4 = {
+			isa = PBXGroup;
+			children = (
+				04510FA519065419003903F4 /* bleOneToMore */,
+				04510FBE1906541A003903F4 /* bleOneToMoreTests */,
+				04510F9E19065419003903F4 /* Frameworks */,
+				04510F9D19065419003903F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04510F9D19065419003903F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04510F9C19065419003903F4 /* bleOneToMore.app */,
+				04510FB71906541A003903F4 /* bleOneToMoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04510F9E19065419003903F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04510F9F19065419003903F4 /* Foundation.framework */,
+				04510FA119065419003903F4 /* CoreGraphics.framework */,
+				04510FA319065419003903F4 /* UIKit.framework */,
+				04510FB81906541A003903F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04510FA519065419003903F4 /* bleOneToMore */ = {
+			isa = PBXGroup;
+			children = (
+				04510FAE19065419003903F4 /* AppDelegate.h */,
+				04510FAF19065419003903F4 /* AppDelegate.m */,
+				04510FB119065419003903F4 /* Images.xcassets */,
+				04510FA619065419003903F4 /* Supporting Files */,
+			);
+			path = bleOneToMore;
+			sourceTree = "<group>";
+		};
+		04510FA619065419003903F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04510FA719065419003903F4 /* bleOneToMore-Info.plist */,
+				04510FA819065419003903F4 /* InfoPlist.strings */,
+				04510FAB19065419003903F4 /* main.m */,
+				04510FAD19065419003903F4 /* bleOneToMore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04510FBE1906541A003903F4 /* bleOneToMoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				04510FC41906541A003903F4 /* bleOneToMoreTests.m */,
+				04510FBF1906541A003903F4 /* Supporting Files */,
+			);
+			path = bleOneToMoreTests;
+			sourceTree = "<group>";
+		};
+		04510FBF1906541A003903F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04510FC01906541A003903F4 /* bleOneToMoreTests-Info.plist */,
+				04510FC11906541A003903F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04510F9B19065419003903F4 /* bleOneToMore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04510FC81906541A003903F4 /* Build configuration list for PBXNativeTarget "bleOneToMore" */;
+			buildPhases = (
+				04510F9819065419003903F4 /* Sources */,
+				04510F9919065419003903F4 /* Frameworks */,
+				04510F9A19065419003903F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bleOneToMore;
+			productName = bleOneToMore;
+			productReference = 04510F9C19065419003903F4 /* bleOneToMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04510FB61906541A003903F4 /* bleOneToMoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04510FCB1906541A003903F4 /* Build configuration list for PBXNativeTarget "bleOneToMoreTests" */;
+			buildPhases = (
+				04510FB31906541A003903F4 /* Sources */,
+				04510FB41906541A003903F4 /* Frameworks */,
+				04510FB51906541A003903F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04510FBD1906541A003903F4 /* PBXTargetDependency */,
+			);
+			name = bleOneToMoreTests;
+			productName = bleOneToMoreTests;
+			productReference = 04510FB71906541A003903F4 /* bleOneToMoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04510F9419065419003903F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = compx.com.cn;
+				TargetAttributes = {
+					04510FB61906541A003903F4 = {
+						TestTargetID = 04510F9B19065419003903F4;
+					};
+				};
+			};
+			buildConfigurationList = 04510F9719065419003903F4 /* Build configuration list for PBXProject "bleOneToMore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04510F9319065419003903F4;
+			productRefGroup = 04510F9D19065419003903F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04510F9B19065419003903F4 /* bleOneToMore */,
+				04510FB61906541A003903F4 /* bleOneToMoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04510F9A19065419003903F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04510FAA19065419003903F4 /* InfoPlist.strings in Resources */,
+				04510FB219065419003903F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04510FB51906541A003903F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04510FC31906541A003903F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04510F9819065419003903F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04510FB019065419003903F4 /* AppDelegate.m in Sources */,
+				04510FAC19065419003903F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04510FB31906541A003903F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04510FC51906541A003903F4 /* bleOneToMoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04510FBD1906541A003903F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04510F9B19065419003903F4 /* bleOneToMore */;
+			targetProxy = 04510FBC1906541A003903F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04510FA819065419003903F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04510FA919065419003903F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04510FC11906541A003903F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04510FC21906541A003903F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04510FC61906541A003903F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04510FC71906541A003903F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04510FC91906541A003903F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bleOneToMore/bleOneToMore-Prefix.pch";
+				INFOPLIST_FILE = "bleOneToMore/bleOneToMore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04510FCA1906541A003903F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bleOneToMore/bleOneToMore-Prefix.pch";
+				INFOPLIST_FILE = "bleOneToMore/bleOneToMore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04510FCC1906541A003903F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bleOneToMore.app/bleOneToMore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bleOneToMore/bleOneToMore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bleOneToMoreTests/bleOneToMoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04510FCD1906541A003903F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bleOneToMore.app/bleOneToMore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bleOneToMore/bleOneToMore-Prefix.pch";
+				INFOPLIST_FILE = "bleOneToMoreTests/bleOneToMoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04510F9719065419003903F4 /* Build configuration list for PBXProject "bleOneToMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04510FC61906541A003903F4 /* Debug */,
+				04510FC71906541A003903F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04510FC81906541A003903F4 /* Build configuration list for PBXNativeTarget "bleOneToMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04510FC91906541A003903F4 /* Debug */,
+				04510FCA1906541A003903F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04510FCB1906541A003903F4 /* Build configuration list for PBXNativeTarget "bleOneToMoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04510FCC1906541A003903F4 /* Debug */,
+				04510FCD1906541A003903F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04510F9419065419003903F4 /* Project object */;
+}
